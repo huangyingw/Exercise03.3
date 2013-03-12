@@ -16,8 +16,6 @@
       <list>
         <bean id="amazon" class="bookorder.Amazon"/>
         <bean id="barnesandnoble" class="bookorder.BarnesAndNoble"/>
-        <bean id="ebooks" class="bookorder.EBooks"/>
-        <bean id="borders" class="bookorder.Borders"/>
       </list>
     </constructor-arg>
   </bean>
