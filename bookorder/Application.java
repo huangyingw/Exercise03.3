@@ -11,6 +11,7 @@ public class Application {
 
 		IBookService bookService = context.getBean("bookService",
 				IBookService.class);
+		bookService.toString();
 
 	}
 
